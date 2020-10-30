@@ -1,0 +1,50 @@
+.list{
+    
+}
+.list:hover{
+    cursor:pointer;
+}
+.text-all{
+    font-weight: 400;
+    font-size:20px;
+    color: black;
+    text-decoration:none;
+    transition: all 0.2s ease-in;
+
+}
+.text{
+    text-decoration:line-through;
+    color:grey;
+    transition: all 0.2s ease-in;
+}
+.important{
+font-weight:700;
+font-size: 25px;
+color:rgb(0, 132, 255);
+transition: all 0.2s ease-in;
+}
+
+.time-span-float{
+    margin-left: auto;
+    margin-right: auto;
+}
+.time-size{
+    margin-left: -10px;
+    width: 100px;
+    
+    border-right: 1px solid rgba(0,0,0,.125);
+}
+.btn-important{
+    background-color: white;
+    border:1px solid rgba(0,0,0,.125);
+
+}.btn-important:hover{
+    background-color: rgb(73, 255, 73);
+}
+.btn-del{
+    background-color: white;
+    border:1px solid rgba(0,0,0,.125);
+}
+.btn-del:hover{
+    background-color: rgb(255, 52, 52);
+}
